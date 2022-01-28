@@ -1,4 +1,9 @@
-
+/* universal style for html padding issues */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
 
 body {
     color: #39a6b2;
@@ -46,7 +51,25 @@ header h1 {
   display: inline;
 }
 
-* {
+/* footer styles */
+footer {
+  background: #fce138;
+  width: 100%;
+  padding: 40px 35px;
+}
+
+footer h2 {
+  display: inline;
+  color: #024e76;
+  font-size: 30px;
   margin: 0px;
-  padding: 0px;
+}
+footer div {
+  float: right;
+  line-height: 1.5;
+  text-align: right;
+}
+
+footer a {
+  color: #024e76;
 }
